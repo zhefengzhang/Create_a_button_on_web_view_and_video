@@ -82,18 +82,18 @@
       },
       {
         "__id__": 12
-      },
-      {
-        "__id__": 15
       }
     ],
     "_active": true,
     "_components": [
       {
-        "__id__": 18
+        "__id__": 14
       },
       {
-        "__id__": 19
+        "__id__": 15
+      },
+      {
+        "__id__": 16
       }
     ],
     "_prefab": null,
@@ -239,6 +239,7 @@
       "height": 1
     },
     "_renderStages": 1,
+    "_alignWithScreen": true,
     "_id": "2fKSYlS51HG7tcqaZ2FyCw"
   },
   {
@@ -484,7 +485,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 146.81,
+      "width": 342.33,
       "height": 75.6
     },
     "_anchorPoint": {
@@ -497,7 +498,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        -275,
         0,
         0,
         0,
@@ -534,9 +535,10 @@
         "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
       }
     ],
-    "_useOriginalSize": false,
-    "_string": "Label",
-    "_N$string": "Label",
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_string": "Hello, World!",
+    "_N$string": "Hello, World!",
     "_fontSize": 60,
     "_lineHeight": 60,
     "_enableWrapText": true,
@@ -544,6 +546,8 @@
     "_isSystemFontUsed": true,
     "_spacingX": 0,
     "_batchAsBitmap": false,
+    "_styleFlags": 0,
+    "_underlineHeight": 0,
     "_N$horizontalAlign": 1,
     "_N$verticalAlign": 1,
     "_N$fontFamily": "Arial",
@@ -553,7 +557,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "New WebView",
+    "_name": "cocosvideo",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -563,9 +567,6 @@
     "_components": [
       {
         "__id__": 13
-      },
-      {
-        "__id__": 14
       }
     ],
     "_prefab": null,
@@ -580,7 +581,7 @@
     "_contentSize": {
       "__type__": "cc.Size",
       "width": 960,
-      "height": 640
+      "height": 500
     },
     "_anchorPoint": {
       "__type__": "cc.Vec2",
@@ -592,7 +593,7 @@
       "ctor": "Float64Array",
       "array": [
         0,
-        0,
+        7.845,
         0,
         0,
         0,
@@ -614,121 +615,16 @@
     "_is3DNode": false,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "6c9NIzvWlLELtsmsObQ3/D"
-  },
-  {
-    "__type__": "cc.WebView",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 12
-    },
-    "_enabled": true,
-    "_useOriginalSize": false,
-    "_url": "http://www.cocos.com",
-    "webviewEvents": [],
-    "_id": "17UJEWAXdKJqfzm9WpwQ07"
-  },
-  {
-    "__type__": "cc.Widget",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 12
-    },
-    "_enabled": true,
-    "alignMode": 1,
-    "_target": null,
-    "_alignFlags": 45,
-    "_left": 0,
-    "_right": 0,
-    "_top": 0,
-    "_bottom": 0,
-    "_verticalCenter": 0,
-    "_horizontalCenter": 0,
-    "_isAbsLeft": true,
-    "_isAbsRight": true,
-    "_isAbsTop": true,
-    "_isAbsBottom": true,
-    "_isAbsHorizontalCenter": true,
-    "_isAbsVerticalCenter": true,
-    "_originalWidth": 300,
-    "_originalHeight": 200,
-    "_id": "daFui9eFJJ07+ofIWixaME"
-  },
-  {
-    "__type__": "cc.Node",
-    "_name": "New VideoPlayer",
-    "_objFlags": 0,
-    "_parent": {
-      "__id__": 2
-    },
-    "_children": [],
-    "_active": true,
-    "_components": [
-      {
-        "__id__": 16
-      },
-      {
-        "__id__": 17
-      }
-    ],
-    "_prefab": null,
-    "_opacity": 255,
-    "_color": {
-      "__type__": "cc.Color",
-      "r": 255,
-      "g": 255,
-      "b": 255,
-      "a": 255
-    },
-    "_contentSize": {
-      "__type__": "cc.Size",
-      "width": 960,
-      "height": 640
-    },
-    "_anchorPoint": {
-      "__type__": "cc.Vec2",
-      "x": 0.5,
-      "y": 0.5
-    },
-    "_trs": {
-      "__type__": "TypedArray",
-      "ctor": "Float64Array",
-      "array": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        1,
-        1,
-        1
-      ]
-    },
-    "_eulerAngles": {
-      "__type__": "cc.Vec3",
-      "x": 0,
-      "y": 0,
-      "z": 0
-    },
-    "_skewX": 0,
-    "_skewY": 0,
-    "_is3DNode": false,
-    "_groupIndex": 0,
-    "groupIndex": 0,
-    "_id": "f0aozUI0FE2rRylL29Vxru"
+    "_id": "36bfgUIftKWqHflaf2SL51"
   },
   {
     "__type__": "cc.VideoPlayer",
     "_name": "",
     "_objFlags": 0,
     "node": {
-      "__id__": 15
+      "__id__": 12
     },
-    "_enabled": false,
+    "_enabled": true,
     "_resourceType": 1,
     "_remoteURL": "",
     "_clip": {
@@ -738,36 +634,10 @@
     "_mute": false,
     "_isFullscreen": false,
     "_N$isFullscreen": false,
+    "_stayOnBottom": false,
     "videoPlayerEvent": [],
     "_N$keepAspectRatio": true,
-    "_id": "74KMD0kP1PCJfLazVO9jgb"
-  },
-  {
-    "__type__": "cc.Widget",
-    "_name": "",
-    "_objFlags": 0,
-    "node": {
-      "__id__": 15
-    },
-    "_enabled": true,
-    "alignMode": 1,
-    "_target": null,
-    "_alignFlags": 45,
-    "_left": 0,
-    "_right": 0,
-    "_top": 0,
-    "_bottom": 0,
-    "_verticalCenter": 0,
-    "_horizontalCenter": 0,
-    "_isAbsLeft": true,
-    "_isAbsRight": true,
-    "_isAbsTop": true,
-    "_isAbsBottom": true,
-    "_isAbsHorizontalCenter": true,
-    "_isAbsVerticalCenter": true,
-    "_originalWidth": 428,
-    "_originalHeight": 240,
-    "_id": "2de7XwpOlGMa6yt3vmi1bU"
+    "_id": "4afyPrb81Ph7vV999o+SGr"
   },
   {
     "__type__": "cc.Canvas",
@@ -797,15 +667,33 @@
     "label": {
       "__id__": 11
     },
-    "text": "Hello, World!",
-    "videoPlay": {
-      "__id__": 16
-    },
-    "webView": {
-      "__id__": 13
-    },
-    "imageWidth": 195,
-    "imageHeight": 57,
     "_id": "6c2DelPXdAw6DL8R3PDXaR"
+  },
+  {
+    "__type__": "cc.Widget",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 2
+    },
+    "_enabled": true,
+    "alignMode": 1,
+    "_target": null,
+    "_alignFlags": 45,
+    "_left": 0,
+    "_right": 0,
+    "_top": 0,
+    "_bottom": 0,
+    "_verticalCenter": 0,
+    "_horizontalCenter": 0,
+    "_isAbsLeft": true,
+    "_isAbsRight": true,
+    "_isAbsTop": true,
+    "_isAbsBottom": true,
+    "_isAbsHorizontalCenter": true,
+    "_isAbsVerticalCenter": true,
+    "_originalWidth": 0,
+    "_originalHeight": 0,
+    "_id": "9bsF3VfVJN75vdTdRXmWkv"
   }
 ]
